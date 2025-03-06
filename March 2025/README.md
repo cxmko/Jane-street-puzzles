@@ -41,9 +41,12 @@ March 2025/
 ├── hall_of_mirrors/
 │   ├── __init__.py
 │   ├── solver.py           # Contains the backtracking and mirror placement algorithm
+│   ├── path_validation.py
+│   ├── simulation.py
+│   ├── factorization.py 
 │   └── visualization.py    # Tools for plotting the grid and ray trajectories
 └── solution/
-    ├── solve_puzzle.py     # Example script for a smaller puzzle (e.g., 5x5 grid)
+    ├── solve_5x5_puzzle.py     # Example script for a smaller example puzzle 
     └── solve_10x10_puzzle.py  # Script to solve the 10x10 puzzle described above
 ```
 
