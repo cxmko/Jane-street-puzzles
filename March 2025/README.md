@@ -54,8 +54,8 @@ March 2025/
 Clone the repository and install the package in development mode:
 
 ```bash
-git clone https://github.com/yourusername/hall-of-mirrors.git
-cd hall-of-mirrors
+git clone https://github.com/cxmko/Jane-street-puzzles.git
+cd "Jane-street-puzzles/March 2025"
 pip install -e .
 ```
 
@@ -64,70 +64,9 @@ pip install -e .
 To solve the 10x10 puzzle (Hall of Mirrors 3), run the following command from the project root:
 
 ```bash
-python examples/solve_10x10_puzzle.py
+python solution/solve_10x10_puzzle.py
 ```
 
-### Example Code
-
-Below is a brief overview of how to use the main functions of the package:
-
-```python
-from hall_of_mirrors import solve_puzzle, plot_solution
-import matplotlib.pyplot as plt
-
-# Define the 10x10 puzzle configuration
-entries = [
-    (112, ["top", 2]),
-    (48, ["top", 4]),
-    (3087, ["top", 5]),
-    (9, ["top", 6]),
-    (1, ["top", 9]),
-    (27, ["left", 6]),
-    (12, ["left", 2]),
-    (225, ["left", 1]),
-    (2025, ["bottom", 0]),
-    (12, ["bottom", 3]),
-    (64, ["bottom", 4]),
-    (5, ["bottom", 5]),
-    (405, ["bottom", 7]),
-    (4, ["right", 8]),
-    (27, ["right", 7]),
-    (16, ["right", 3])
-]
-
-# Extract numbers and construct the clue position dictionary
-numbers = [112, 48, 3087, 9, 1, 27, 12, 225, 2025, 12, 64, 5, 405, 4, 27, 16]
-cluepos = {
-    (2.5, 10.5): 112, (4.5, 10.5): 48, (5.5, 10.5): 3087, (6.5, 10.5): 9, (9.5, 10.5): 1,
-    (-0.5, 6.5): 27, (-0.5, 2.5): 12, (-0.5, 1.5): 225, (0.5, -0.5): 2025, (3.5, -0.5): 12,
-    (4.5, -0.5): 64, (5.5, -0.5): 5, (7.5, -0.5): 405, (10.5, 8.5): 4, (10.5, 7.5): 27, (10.5, 3.5): 16
-}
-
-# Solve the puzzle
-solution = solve_puzzle(
-    numbers=numbers,
-    cluepos=cluepos,
-    dic=dict(entries),
-    max_tuple_length=25//2,  # Maximum factorization length
-    max_factor=6,            # Maximum factor value
-    grid_size=10
-)
-
-if solution:
-    mirror_configs, final_matrix, trajectory_products = solution
-    
-    # Extract all mirrors and visualize the solution
-    all_mirrors = []
-    for config in mirror_configs:
-        for mirror in config:
-            if mirror not in all_mirrors:
-                all_mirrors.append(mirror)
-    
-    fig = plot_solution(all_mirrors, 10, trajectory_products)
-    plt.show()
-else:
-    print("No solution found!")
-```
 
 ## Sample Output
 
