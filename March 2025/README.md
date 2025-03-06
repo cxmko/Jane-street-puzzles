@@ -68,7 +68,7 @@ python solution/solve_10x10_puzzle.py
 ```
 
 
-## Sample Output
+## Grid solution
 
 After running the 10x10 puzzle, you should see a figure like the one below:
 
