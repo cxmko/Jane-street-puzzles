@@ -34,7 +34,7 @@ The puzzle solved by this package is **Hall of Mirrors 3** (March 2025, Jane Str
 ## File Structure
 
 ```
-hall-of-mirrors/
+March 2025/
 ├── LICENSE
 ├── README.md
 ├── setup.py
@@ -42,7 +42,7 @@ hall-of-mirrors/
 │   ├── __init__.py
 │   ├── solver.py           # Contains the backtracking and mirror placement algorithm
 │   └── visualization.py    # Tools for plotting the grid and ray trajectories
-└── examples/
+└── solution/
     ├── solve_puzzle.py     # Example script for a smaller puzzle (e.g., 5x5 grid)
     └── solve_10x10_puzzle.py  # Script to solve the 10x10 puzzle described above
 ```
