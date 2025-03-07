@@ -72,9 +72,9 @@ def main():
         numbers=numbers,
         cluepos=cluepos,
         dic=dic,
-        max_tuple_length=50,  # Maximum factorization length
-        max_factor=11,        # Maximum factor value
-        grid_size=grid_size   # Grid size
+        max_tuple_length=grid_size**2//2,  # Maximum factorization length, there can be at maximum 1 mirror per 2 tiles according to the rules
+        max_factor=grid_size+1,        # Maximum factor value, which is the maximum segment length
+        grid_size=grid_size   
     )
     
     if solution:
@@ -98,7 +98,7 @@ def main():
         fig = plot_solution(all_mirrors, grid_size, trajectory_products)
         plt.show()
         
-        # Calculate the unique bordered cell values
+        # Calculate the bordered cell values
         print("\nCalculating border values...")
         valid_indices = {
             "top": [],
