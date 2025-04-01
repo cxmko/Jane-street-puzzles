@@ -4,7 +4,7 @@ Hall of Mirrors is a Python package designed to solve complex mirror placement p
 
 ## Puzzle Description
 
-The puzzle solved by this package is **Hall of Mirrors 3** (March 2025, Jane Street):
+The puzzle solved by this package is **[Hall of Mirrors 3](https://www.janestreet.com/puzzles/hall-of-mirrors-3-index/)** (March 2025, Jane Street):
 
 - **Field:** A 10-by-10 square grid.
 - **Lasers:** Positioned around the perimeter, each starting half a unit from the edge.
