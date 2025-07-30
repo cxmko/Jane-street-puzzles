@@ -1,5 +1,10 @@
 # Hall of Mirrors 3
 
+
+[View the official puzzle on Jane Street’s site »](https://www.janestreet.com/puzzles/hall-of-mirrors-3-index/)
+
+![Leaderboard screenshot showing my name](images/leaderboard.png)
+
 Hall of Mirrors is a Python package designed to solve complex mirror placement puzzles. These puzzles involve placing diagonal mirrors in a square grid such that lasers entering the field follow paths whose segment lengths, when multiplied together, match given clue numbers. The solver employs factorization, ray simulation, and backtracking to build candidate solutions and ultimately determine the correct mirror placements.
 
 ## Puzzle Description
