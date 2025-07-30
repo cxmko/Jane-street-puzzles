@@ -1,4 +1,4 @@
-# Hall of Mirrors 3
+# Jane Street Puzzle - March 2025: Hall of Mirrors 3
 
 
 [View the official puzzle on Jane Street’s site »](https://www.janestreet.com/puzzles/hall-of-mirrors-3-index/)
