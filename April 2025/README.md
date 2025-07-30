@@ -67,4 +67,4 @@ To view the complete solution and run the code, you can use Jupyter Notebook.
    ```
 4. **Open** `Sum_One_Somewhere.ipynb` **to see the detailed explanation and execute the Python code cells.**
 
-The notebook will guide you through the mathematical logic and the final code block will compute the value of **p** accurate to 10 decimal places.\`\`\`
+The notebook will guide you through the mathematical logic and the final code block will compute the value of **p** accurate to 10 decimal places.
