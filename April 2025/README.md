@@ -1,4 +1,3 @@
-````markdown
 # Jane Street Puzzle - April 2025: Sum One, Somewhere
 
 [View the official puzzle on Jane Street’s site »](https://www.janestreet.com/puzzles/sum-one-somewhere-index/)
@@ -48,7 +47,7 @@ To view the complete solution and run the code, you can use Jupyter Notebook.
 1. **Clone this repository:**  
    ```bash
    git clone <repository-url>
-````
+
 
 2. **Navigate to the cloned directory:**
 
